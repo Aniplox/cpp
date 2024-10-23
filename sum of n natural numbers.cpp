@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 class NaturalNumbers {
 private:
@@ -20,11 +21,11 @@ int main() {
     NaturalNumbers nn;
 
     int number;
-    std::cout << "Enter a natural number: ";
-    std::cin >> number;
+    cout << "Enter a natural number: ";
+    cin >> number;
     nn.setN(number);
 
-    std::cout << "The sum of the first " << number << " natural numbers is: " << nn.sum() << std::endl;
+    cout << "The sum of the first " << number << " natural numbers is: " << nn.sum() << endl;
 
     return 0;
 }
